@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan </title>
+    <link rel="stylesheet" type="text/css" href="style c.css">
+</head>
+<body>
+    <h1>Form Pemesanan </h1>
+    <form action="proses_pemesanan.php" method="POST">
+        <label for="nama">Nama Anda:</label>
+        <input type="text" id="nama" name="nama" required>
+        <br><br>
+
+        <label for="alamat">Alamat Pengiriman:</label>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea>
+        <br><br>
+
+        <label for="nama produk">nama produk</label>
+        <textarea id="masukan nama produk" name="Masukan nama produk" rows="2" required></textarea>
+        <br><br>
+
+        <label for="ukuran">Ukuran:</label>
+        <input type="radio" id="s" name="ukuran" value="S" required>
+        <label for="s">S</label>
+        <input type="radio" id="m" name="ukuran" value="M">
+        <label for="m">M</label>
+        <input type="radio" id="l" name="ukuran" value="L">
+        <label for="l">L</label>
+        <br><br>
+
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah" min="1" required>
+        <br><br>
+
+        <input type="button" value="sendMessage" onclick="sendMessage()">
+    </form>
+
+    <script>
+        function sendMessage() {
+            var nama = document.getElementById("nama").value;
+            var alamat = document.getElementById("alamat").value;
+            var namaProduk = document.getElementById("masukan_nama_produk").value;
+            var ukuran = document.querySelector('input[name="ukuran"]:checked').value;
+            var jumlah = document.getElementById("jumlah").value;
+    
+            var pesan = "Pemesanan Baru:\n";
+            pesan += "Nama: " + nama + "\n";
+            pesan += "Alamat: " + alamat + "\n";
+            pesan += "Nama Produk: " + namaProduk + "\n";
+            pesan += "Ukuran: " + ukuran + "\n";
+            pesan += "Jumlah: " + jumlah + "\n";
+    
+            window.open('https://api.whatsapp.com/send?phone=6285333049716&text=' + encodeURIComponent(pesan))
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,288 @@
+
+        body {
+            background-image: url('background.jpg'); /* Ganti 'background.jpg' dengan path ke gambar latar belakang Anda */
+            background-repeat: no-repeat; /* Mencegah gambar latar belakang diulang */
+            background-size: cover; /* Menyesuaikan gambar latar belakang dengan ukuran layar */
+            background-position: center center; 
+        }
+
+        h1 {
+            background-color: #2e2e2e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-family: "MetallicaFont", sans-serif; /* Ganti "MetallicaFont" dengan font metalik yang Anda inginkan */
+            font-weight: bold; /* Membuat teks menjadi tebal (bold) */
+            color: #ffffff;; /* Ubah warna sesuai dengan efek metalik yang diinginkan */
+            text-align: center; /* Pusatkan teks secara horizontal */
+        }
+        
+
+        nav {
+            background-color: #262323;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            background-color: white;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2e2e2e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.product h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+
+.product strong {
+    font-weight: bold;
+    color: #FF5733;
+}
+
+
+.product a {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product a:hover {
+    background-color: #0056b3;
+}
+.product {
+    text-align: center;
+    margin: 20px auto; 
+    width: 300px; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+
+
+.product h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.product strong {
+    font-weight: bold;
+    color: #FF5733;
+}
+
+.product a {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product a:hover {
+    background-color: #0056b3;
+}
+h2 {
+    background-color: #e4e3ef;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    font-family: 'Helvetica Neue', sans-serif; 
+    color: #007bff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    text-align: center; 
+    margin-bottom: 20px;}
+   
+    
+
+    h1 {
+        font-size: 36px; 
+        font-weight: bold;
+        color: #ffffff; }
+
+
+        .product {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        
+        
+        .product h3 {
+            font-family: 'Arial', sans-serif; 
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+        
+        .product p {
+            font-family: 'Helvetica', sans-serif;
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        .product strong {
+            font-weight: bold;
+            color: #FF5733;
+        }
+        
+        .product a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .product a:hover {
+            background-color: #0056b3;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 250px;
+        }
+        
+        /* Style untuk gambar produk */
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        /* Style untuk judul produk */
+        .product h3 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #333;
+        }
+        
+        /* Style untuk deskripsi produk */
+        .product p {
+            color: #777;
+            font-size: 1.2em;
+        }
+        
+        /* Style untuk harga produk */
+        .product strong {
+            color: #ff5733;
+        }
+        
+        /* Style untuk tautan checkout */
+        .product a {
+            display: block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .product img {
+            width: 200px; /* Ubah ukuran sesuai kebutuhan */
+            height: 200px; /* Ubah ukuran sesuai kebutuhan */
+            object-fit: cover; /* Membuat gambar tetap sesuai rasio aspek tanpa merusaknya */
+        }
+        
+        /* Hover efek pada tautan checkout */
+        .product a:hover {
+            background-color: #ff3b1b;
+        }
+        /* Untuk mengatur ukuran dan margin logo */
+ a img {background-color: #e4e3ef;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 50px; /* Ubah ukuran sesuai kebutuhan */
+    height: auto; /* Menjaga aspek rasio gambar */
+    margin: 10px; /* Menambahkan margin di sekitar gambar */
+}
+
+/* Untuk mengatur efek hover ketika kursor berada di atas logo */
+ a:hover img {
+    opacity: 0.7; /* Mengurangi opasitas gambar saat hover */
+    transition: opacity 0.3s; /* Efek transisi perubahan opasitas */
+}
